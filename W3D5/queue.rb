@@ -1,18 +1,18 @@
 class Queue
     def initialize
-        queue = []
+        @queue = []
     end
 
     def enqueue(el)
-        queue.push(el)
+        @queue.push(el)
     end
 
     def dequeue
-        queue.shift
+        @queue.shift
     end
 
     def peek
-        queue.first
+        @queue.first
     end
 
 end

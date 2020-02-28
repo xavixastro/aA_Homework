@@ -1,17 +1,17 @@
 class Stack
     def initialize
-        stack = []
+        @stack = []
     end
 
     def push(el)
-        stack << el
+        @stack << el
     end
 
     def pop
-        stack.pop
+        @stack.pop
     end
 
     def peek
-        stack.first
+        @stack.first
     end
 end
